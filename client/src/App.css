@@ -7,10 +7,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  height: 100%;
-  background-image: url('https://i.pinimg.com/736x/6b/58/02/6b5802a609a6a92ffca731ae2e9c5a79--dragon.jpg');
+  height: 90%;
+  background-image: url('https://pbs.twimg.com/media/FPKgmXwX0AIT8W_.jpg:large');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100vw;
 
 }
@@ -24,16 +25,50 @@ Canvas {
   font-family: spy;
   font-size: 10vh;
 }
+.paragraph {
+  
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.About {
+  color: gold;
+  font-family: spy;
+  font-size: 3vh;
+  height: 3vh;
+}
+p {
+  /* background-color: rgb(120, 178, 225); */
+  height: 50vh;
+  width: 30vw;
+  color: rgb(255, 255, 255);
+  font-family: spy;
+  font-size: 25px;;
+  background: rgba(11, 233, 247, 0.13);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(11, 233, 247, 0.74);
+    
+  
+}
 Nav {
   margin-bottom: 5vh;
 }
 
 .pagewrap {
   margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .image {
   height: 45px;
   width: 45px;
+}
+.buttons {
+  margin-bottom: 25vh;
 }
 button {
   height: 5vh;
@@ -44,4 +79,39 @@ button {
   font-size: 4vh;
   background: none;
   cursor: pointer;
+}
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.projectwrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Project {
+  margin-left: 35vw;;
+  height:10vh
+}
+.projectcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+.box {
+  height: 10vh;
+  width: 10vw;
+  color: rgb(255, 255, 255);
+  font-family: spy;
+  font-size: 25px;;
+  background: rgba(11, 233, 247, 0.13);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(11, 233, 247, 0.74);
+  align-self: center;
+  cursor: pointer
+
 }

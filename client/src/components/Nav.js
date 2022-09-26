@@ -1,19 +1,22 @@
 import '../App.css';
-import Spyro from '../Spyro.gif'
+import { useNavigate } from 'react-router-dom';
 
 
-export default function Nav() {
+
+
+const Nav = (props) => {
+
+  let navigate = useNavigate()
+
+  
   return (
     
-    <div className='pagewrap'>
+    <div className='buttons'>
         
-           <button>About</button> 
-           <button>Projects</button>
-           <button>ContactMe</button> 
-        
-    
-    
+           <button onClick={() => navigate("/about")}>About</button> 
+           <button onClick={() => navigate("projects")}>Projects</button>
     </div>
     
   );
 }
+export default Nav

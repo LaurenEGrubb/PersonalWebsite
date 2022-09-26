@@ -1,0 +1,47 @@
+@font-face {
+  src: url(../SPRYRO_2.ttf);
+  font-family: spy;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  background-image: url('https://i.pinimg.com/736x/6b/58/02/6b5802a609a6a92ffca731ae2e9c5a79--dragon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+
+}
+Canvas {
+  
+  height: 80vh;
+  width: 100vw;
+}
+.Loading {
+  color: gold;
+  font-family: spy;
+  font-size: 10vh;
+}
+Nav {
+  margin-bottom: 5vh;
+}
+
+.pagewrap {
+  margin-bottom: 5vh;
+}
+.image {
+  height: 45px;
+  width: 45px;
+}
+button {
+  height: 5vh;
+  width: 15vw;
+  color: gold;
+  border: none;
+  font-family: spy;
+  font-size: 4vh;
+  background: none;
+  cursor: pointer;
+}

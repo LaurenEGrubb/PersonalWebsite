@@ -1,5 +1,6 @@
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
+import gif from '../components/Spyro.gif'
 
 
 
@@ -10,12 +11,11 @@ const Nav = (props) => {
 
   
   return (
-    
-    <div className='buttons'>
-        
-           <button onClick={() => navigate("/about")}>About</button> 
-           <button onClick={() => navigate("projects")}>Projects</button>
-    </div>
+    <div className="gameconsole"> 
+           <button className="left" onClick={() => navigate("projects")}>Projects</button>
+           <img className="gif" src={gif} alt="loading..."/>
+           <button className="right" onClick={() => navigate("/about")}>About</button>
+   </div>
     
   );
 }

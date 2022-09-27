@@ -20,7 +20,7 @@ export default function Dragon(props) {
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} >
           <group name="root">
             <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]} >
-              <group name="Armature_Spyro_65" position={[0, 0.44, -0.24]} rotation={[1.37, 0, 0]} scale={0.25} >
+              <group name="Armature_Spyro_65" position={[0, 0.44, -0.24]} rotation={[1.37, 0, 0]} scale={0.40} >
                 <group name="GLTF_created_0">
                   <primitive object={nodes.GLTF_created_0_rootJoint} />
                   <skinnedMesh name="Object_73" geometry={nodes.Object_73.geometry} material={materials.Spyro} skeleton={nodes.Object_73.skeleton}  />

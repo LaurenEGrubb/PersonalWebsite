@@ -42,7 +42,7 @@ const Home = () => {
         <Canvas className='canvas'>
           <OrbitControls enableZoom={false} />
           <ambientLight intensity={0.3}/>
-          <directionalLight position={[-2,5,3]} intensity={1}/>
+          <directionalLight position={[-2,5,4]} intensity={1}/>
           <Dragon />
         </Canvas>
         </ErrorBoundary>
